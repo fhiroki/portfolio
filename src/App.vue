@@ -1,11 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-    </v-app-bar>
+    <Header/>
     <v-main>
       <Main/>
     </v-main>
@@ -13,13 +8,15 @@
 </template>
 
 <script>
-import Main from './components/Main'
+import Main from './components/Main';
+import Header from './components/Header';
 
 export default {
   name: 'App',
 
   components: {
     Main,
+    Header,
   },
 
   data: () => ({
