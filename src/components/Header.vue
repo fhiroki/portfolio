@@ -7,7 +7,6 @@
 <script>
 export default {
   name: "Header",
-  data: () => ({
-  }),
+  data: () => ({}),
 };
 </script>
