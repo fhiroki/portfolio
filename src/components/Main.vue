@@ -182,7 +182,7 @@ Springに関しては奥が深く、まだまだ勉強すべきことがたく�
         content:
           "現在アルバイトをしているスタートアップです。\
 proofrog という、画像同士の比較ができる、印刷業界向けの校正検版ツールを開発しています。\
-自分が担当しているのは、主にバックエンドですが、フロントエンドやインフラ周りも必要に応じて担当することがあるので、\
+自分が担当しているのは、主にバックエンドですが、フロントエンドも必要に応じて担当することがあるので、\
 未熟ながらもフルスタックエンジニアのような働きができているのではないかと思います。\
 普段は、製品のコアである画像処理関連のアルゴリズムを実装しています。",
       },
@@ -236,7 +236,8 @@ proofrog という、画像同士の比較ができる、印刷業界向けの�
       {
         yearMonth: "2020/9（2週間）",
         title: "楽天株式会社インターン",
-        url: "https://commerce-engineer.rakuten.careers/careers/graduates/internship/summer-short",
+        url:
+          "https://commerce-engineer.rakuten.careers/careers/graduates/internship/summer-short",
         icon: "mdi-office-building",
         color: "red",
         content:
