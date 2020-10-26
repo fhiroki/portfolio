@@ -37,13 +37,13 @@
                         <v-col cols="5" style="padding-top: 5px">
                           {{ work.title }}
                         </v-col>
-                        <v-col cols="4">
+                        <v-col cols="3">
                           <v-icon>mdi-code-tags</v-icon>
                           <span v-for="(language, i) in work.languages" :key="i">
                             <v-icon small>mdi-language-{{ language }}</v-icon>
                           </span>
                         </v-col>
-                        <v-col cols="3">
+                        <v-col cols="4">
                           <v-icon>mdi-calendar</v-icon>
                           {{ work.period }}
                         </v-col>
@@ -78,7 +78,7 @@ export default {
         works: [
           {
             title: "卒業研究",
-            period: "大学３〜４年",
+            period: "大学3〜4年",
             languages: ["python"],
             content: `卒業研究として、\
 <a href="https://github.com/fhiroki/analyze-leed-pattern" target="_blank" rel="noopener noreferrer">画像認識ソフト</a>\
@@ -105,7 +105,7 @@ Python で CLI ツールとして実装しており、画像の解析には Open
         works: [
           {
             title: "社内研修",
-            period: "０〜３ヶ月",
+            period: "0〜3ヶ月",
             languages: ["java"],
             content:
               "会社に入ってから約３ヶ月間は、研修期間として、様々な課題にチャレンジしました。\
@@ -129,7 +129,7 @@ Python で CLI ツールとして実装しており、画像の解析には Open
           },
           {
             title: "iOSアプリの保守、開発",
-            period: "３〜６ヶ月",
+            period: "3〜6ヶ月",
             languages: ["swift"],
             content:
               "約３ヶ月経った頃には、先輩のエンジニアにご指導いただきながら、iOSアプリの保守や開発を行いました。\
@@ -143,7 +143,7 @@ Python で CLI ツールとして実装しており、画像の解析には Open
           },
           {
             title: "スマホアプリの開発",
-            period: "６〜１０ヶ月",
+            period: "6〜10ヶ月",
             languages: ["javascript"],
             content:
               "NativeScriptという、iOSとAndroidの両方を同時に開発できるフレームワークを用いて、スマホアプリの開発を行いました。\
@@ -159,8 +159,8 @@ Python で CLI ツールとして実装しており、画像の解析には Open
 これらの１手間がかなり厳しく、色々な手直しが入り、正直心が折れそうになりました。その分、リリースが完了した時の達成感は一入でした。",
           },
           {
-            title: "Spring One参加（サンフランシスコ）",
-            period: "８ヶ月頃",
+            title: "Spring One参加",
+            period: "8ヶ月頃",
             languages: ["java"],
             content:
               "インターンを始めて約半年が経った頃、社内研修としてSpring Oneに参加するため、サンフランシスコに連れていってもらいました。\
@@ -176,8 +176,8 @@ Python で CLI ツールとして実装しており、画像の解析には Open
 「おもてなし」の精神は口だけではなく、本当なんだと実感しました。",
           },
           {
-            title: "Webアプリ・APIの開発",
-            period: "１０〜１２ヶ月",
+            title: "Webアプリ、APIの開発",
+            period: "10〜12ヶ月",
             languages: ["java", "javascript"],
             content:
               "WebアプリはAngularというJavaScriptのフレームワーク、APIはSpringで実装しました。\
@@ -187,8 +187,8 @@ Springを本格的に触ったのはこれが初めてで、それもSpring Data
 Springに関しては奥が深く、まだまだ勉強すべきことがたくさんあるので、今後の学習課題の１つだと思っています。",
           },
           {
-            title: "機械学習を用いた画像認識アプリの開発",
-            period: "１２〜１５ヶ月",
+            title: "画像認識アプリの開発",
+            period: "12〜15ヶ月",
             languages: ["python"],
             content:
               "機械学習のライブラリを用いた画像認識の組み込みアプリを開発しました。\
@@ -198,8 +198,8 @@ Springに関しては奥が深く、まだまだ勉強すべきことがたく�
 その中でも、Coursera の Machine Learning の講義は大変勉強になりました。",
           },
           {
-            title: "Webアプリ（モックアップ）の開発",
-            period: "１５〜１８ヶ月",
+            title: "Webアプリの開発",
+            period: "15〜18ヶ月",
             languages: ["javascript", "css3"],
             content:
               "最後のプロジェクトに臨む頃には、Gitの使い方やタスク管理の仕方などがある程度習熟してきて、基本的な操作は問題なく行えるようになりました。\
